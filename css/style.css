@@ -13,3 +13,181 @@
 :root{
     font-size: 62.5%;
 }
+.rapper{
+    width: 80%;
+    margin: auto;
+}
+
+
+
+/*====================NAV SECTION START=====================*/
+.header nav{
+    border-bottom: 1px solid #999;
+}
+.header nav .rapper{
+    display: grid;
+    grid-template-columns: repeat(2, max-content);
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+.header nav .rapper h2 a{
+    color: black;
+    font-size: 4rem;
+    font-weight: 800;
+
+}
+.header nav .rapper ul li{
+    display: inline-block;
+    margin: 0 10px;
+
+}
+.header nav .rapper ul li a{
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: black;
+    padding: 10px 20px;
+}
+
+
+
+.header nav .rapper label{
+    width: 50px;
+    height: 35px;
+    border: 2px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+
+    position: relative;
+}
+.header nav .rapper label i{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    font-size: 25px;
+}
+.header nav .rapper label,
+.header nav .rapper input{
+    display: none;
+}
+/*====================NAV SECTION END=====================*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*==============MEDIA FOR 1440PX START================*/
+@media screen and (max-width: 1440px){
+    :root{
+        font-size: 56.25%;
+    }
+}
+/*==============MEDIA FOR 1440PX END================*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*==============MEDIA FOR 1024PX START================*/
+@media screen and (max-width: 1024px){
+    :root{
+        font-size: 50%;
+    }
+
+
+    .header nav .rapper ul li{
+        margin: 0 5px;
+    }
+    .header nav .rapper ul li a{
+        padding: 8px 15px;
+    }
+
+}
+/*==============MEDIA FOR 1024PX END================*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*==============MEDIA FOR 768PX START================*/
+@media screen and (max-width: 768px){
+    .header nav .rapper label{
+        display: inline-block;
+    }
+    .header nav .rapper ul{
+        position: absolute;
+        top: 80px;
+        left: -100%;
+
+        width: 100vw;
+        height: calc(100vh - 80px);
+
+        display: grid;
+        align-content: center;
+        justify-content: stretch;
+
+        z-index: 5;
+
+        transition: 0.5s;
+        
+    }
+    #menu-bar:checked ~ ul{
+        left: 0%;
+    }
+    .header nav .rapper ul li{
+        display: block;
+        margin: 5px 0;
+        text-align: center;
+        padding: 15px 0;
+    }
+    .header nav .rapper ul li a{
+        padding: 10px 0;
+    }
+
+}
+/*==============MEDIA FOR 768PX END================*/
