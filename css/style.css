@@ -124,6 +124,43 @@
 
 
 
+/*====================ABOUT SECTION START=====================*/
+.about-sec{
+    background-color: rgb(246, 255, 237);
+    padding: 50px 0;
+}
+.about-sec .rapper{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-auto-rows: 350px;
+    /* grid-gap: 8%; */
+    grid-gap: 50px 8%;
+
+
+}
+.about-sec .rapper .img-sec,
+.about-sec .rapper .text-sec{
+    font-size: 4rem;
+    font-weight: 800;
+    border-radius: 30px;
+    background-color: chartreuse;
+    color: white;
+    text-align: center;
+
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+/*====================ABOUT SECTION END=====================*/
+
+
+
+
+
+
+
+
+
 
 
 
@@ -224,6 +261,16 @@
 
 
     .hero-sec .rapper{
+        display: grid;
+        /* grid-template-columns: repeat(auto-fill, 1fr); */
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+
+
+
+
+    .about-sec .rapper{
         display: grid;
         /* grid-template-columns: repeat(auto-fill, 1fr); */
         grid-template-columns: repeat(1, 1fr);
