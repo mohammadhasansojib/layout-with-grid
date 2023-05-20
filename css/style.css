@@ -240,6 +240,44 @@
 
 
 
+/*====================CONTACT SECTION START=====================*/
+.contact-sec{
+    padding: 50px 0;
+    background-color: rgb(255, 238, 235);
+}
+.contact-sec .rapper{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-auto-rows: 350px;
+    /* grid-gap: 8%; */
+    grid-gap: 50px 8%;
+
+}
+.contact-sec .rapper .info-sec,
+.contact-sec .rapper .form-sec{
+    background-color: tomato;
+    font-size: 4rem;
+    font-weight: 800;
+    border-radius: 30px;
+    color: white;
+    text-align: center;
+
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+/*====================CONTACT SECTION END=====================*/
+
+
+
+
+
+
+
+
+
+
+
 
 /*==============MEDIA FOR 1440PX START================*/
 @media screen and (max-width: 1440px){
@@ -371,6 +409,15 @@
         display: grid;
         grid-template-columns: repeat(1, 1fr);
     
+    }
+
+
+
+
+
+    .contact-sec .rapper{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
     }
 
 }
