@@ -161,6 +161,41 @@
 
 
 
+/*====================SERVICE SECTION START=====================*/
+.service-sec{
+    padding: 50px 0;
+    background-color: rgb(255, 240, 245);
+}
+.service-sec .rapper{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-auto-rows: 350px;
+    /* grid-gap: 8%; */
+    grid-gap: 50px 8%;
+
+}
+.service-sec .rapper .basic,
+.service-sec .rapper .intermidiate,
+.service-sec .rapper .pro{
+    background-color: palevioletred;
+    border-radius: 30px;
+    font-size: 4rem;
+    font-weight: 800;
+    color: white;
+    text-align: center;
+
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+/*====================SERVICE SECTION END=====================*/
+
+
+
+
+
+
+
 
 
 
@@ -275,6 +310,16 @@
         display: grid;
         /* grid-template-columns: repeat(auto-fill, 1fr); */
         grid-template-columns: repeat(1, 1fr);
+    }
+
+
+
+
+
+    .service-sec .rapper{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    
     }
 
 }
