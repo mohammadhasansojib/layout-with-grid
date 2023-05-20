@@ -16,6 +16,7 @@
 .rapper{
     width: 80%;
     margin: auto;
+    max-width: 1800px;
 }
 
 
@@ -97,7 +98,7 @@
     /* grid-gap: 8%; */
     grid-gap: 50px 8%;
 
-    max-width: 1800px;
+    
 }
 .hero-sec .rapper .text-sec,
 .hero-sec .rapper .img-sec{
