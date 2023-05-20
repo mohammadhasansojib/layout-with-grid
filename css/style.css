@@ -85,7 +85,34 @@
 
 
 
+/*====================HERO SECTION START=====================*/
+.hero-sec{
+    padding: 80px 0;
+    background-color: rgb(240, 237, 255);
+}
+.hero-sec .rapper{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-auto-rows: 350px;
+    /* grid-gap: 8%; */
+    grid-gap: 50px 8%;
 
+    max-width: 1800px;
+}
+.hero-sec .rapper .text-sec,
+.hero-sec .rapper .img-sec{
+    background-color: darkslateblue;
+    border-radius: 30px;
+    text-align: center;
+    font-size: 4rem;
+    color: white;
+    font-weight: 800;
+
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+/*====================HERO SECTION END=====================*/
 
 
 
@@ -161,7 +188,7 @@
     }
     .header nav .rapper ul{
         position: absolute;
-        top: 68px;
+        top: 69px;
         left: -100%;
 
         width: 100vw;
@@ -174,6 +201,7 @@
         z-index: 5;
 
         transition: 0.5s;
+        background-color: white;
         
     }
     #menu-bar:checked ~ ul{
@@ -187,6 +215,17 @@
     }
     .header nav .rapper ul li a{
         padding: 10px 0;
+    }
+
+
+
+
+
+
+    .hero-sec .rapper{
+        display: grid;
+        /* grid-template-columns: repeat(auto-fill, 1fr); */
+        grid-template-columns: repeat(1, 1fr);
     }
 
 }
